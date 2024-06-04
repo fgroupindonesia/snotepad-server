@@ -11,6 +11,18 @@ class Home extends BaseController
         return view('landing_page');
     }
 	
+	public function random()
+    {
+    	 $this->response->setContentType('application/json');
+       $data = [
+            'name' => 'John Doe',
+            'age' => 30,
+            'email' => 'johndoe@example.com'
+        ];
+
+         echo json_encode($data);
+    }
+
 	 public function test()
     {
         return view('upload');

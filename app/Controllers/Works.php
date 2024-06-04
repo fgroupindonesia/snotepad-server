@@ -62,6 +62,11 @@ class Works extends BaseController
 		echo "failed!";
 	}
 	
+	private function convertShortURL($url) {
+	
+		return file_get_contents('http://tinyurl.com/api-create.php?url='.$url);
+	
+	}
 	
 	private function getOS() {
 	$userAgent = $_SERVER['HTTP_USER_AGENT'];	
@@ -119,10 +124,21 @@ class Works extends BaseController
 			
 			$insertedId = $model->insertData($insertData);
 			
-            echo "Success!";
+            //echo "Success!";
         }
 
-		echo "<br> /?q=" . $sevenDigitKode;
+        $aURL = "https://snpad.fgroupindonesia.com/view/?q=" . $sevenDigitKode;
+        $finalURL = $this->convertShortURL($aURL);
+
+ 		$data = [
+            'url' => $finalURL,
+            'origin_url' => $aURL
+        ];
+
+         $this->response->setContentType('application/json');
+         echo json_encode($data);
+
+		//echo "<br> /?q=" . $sevenDigitKode;
 		
        // $data = ['errors' => 'The file has already been moved.'];
 	   //echo "<br>" . var_dump($data);
