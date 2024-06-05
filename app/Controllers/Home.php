@@ -10,6 +10,16 @@ class Home extends BaseController
     {
         return view('landing_page');
     }
+
+    public function tutorialInstalasi(): string
+    {
+        return view('tutorial_instalasi');
+    }
+
+    public function tutorialPenggunaan(): string
+    {
+        return view('tutorial_penggunaan');
+    }
 	
 	public function random()
     {
