@@ -20,6 +20,11 @@ class Home extends BaseController
     {
         return view('tutorial_penggunaan');
     }
+
+     public function tutorialSettings(): string
+    {
+        return view('tutorial_settings');
+    }
 	
 	public function random()
     {

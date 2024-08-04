@@ -1538,3 +1538,16 @@ section {
 .tutorial-container {
   margin-top: 120px !important;
 }
+
+#download-mini {
+  display:none;
+  color: white;
+}
+
+#download-mini a {
+  color: white !important;
+}
+
+#download-mini a:hover {
+  background-color: yellow;
+}

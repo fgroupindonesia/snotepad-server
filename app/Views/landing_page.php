@@ -11,20 +11,20 @@
 
   <!-- Favicons -->
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" >
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -56,8 +56,17 @@
       <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">
         <h2>Anda memerlukan <br><span>Keamanan</span><br>untuk setiap data!</h2>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Pelajari Lebih Lanjut</a>
-          <a href="#services" class="btn-services scrollto">Download</a>
+          <a href="#why-us" class="btn-get-started scrollto">Pelajari Lebih Lanjut</a>
+          <a id="download-hero" href="#" class="btn-services scrollto">Download</a>
+
+<div id="download-mini"> 
+   <h6>Direct Download :</h6>
+  <ul>
+        <li><a href="https://github.com/fgroupindonesia/SNotepad">Source Code</a></li>
+        <li><a href="https://github.com/fgroupindonesia/SNotepad/releases">Installer</a></li>
+  </ul>
+</div>
+
         </div>
       </div>
 
@@ -159,14 +168,14 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Pelatihan Keamanan #01</a></h4>
+              <h4 class="title"><a href="https://fgroupindonesia.com/pelayanan/training-instansi/">Pelatihan Keamanan #01</a></h4>
               <p class="description">Sesi pengenalan dengan berbagai macam termonologi dan kelalaian masyarakat dalam pengelolaan data.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon"><i class="bi bi-card-checklist" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Pelatihan Basic Ms. Office + Keamanan #02</a></h4>
+              <h4 class="title"><a href="https://fgroupindonesia.com/pelayanan/training-instansi/">Pelatihan Basic Ms. Office + Keamanan #02</a></h4>
               <p class="description">Penggunaan data operasional basic disertai tingkat pengaman yang tinggi menjadi kunci utama dalam performa kerja.</p>
             </div>
           </div>
@@ -174,14 +183,14 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Pelatihan Praktis SNPad #03</a></h4>
+              <h4 class="title"><a href="https://fgroupindonesia.com/pelayanan/training-instansi/">Pelatihan Praktis SNPad #03</a></h4>
               <p class="description">Cara melakukan integrasi SNPad dalam keseharian kerja anda untuk meningkatkan keamanan lebih baik.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Pelatihan Developer Tingkat Pemula SNPad #04</a></h4>
+              <h4 class="title"><a href="https://fgroupindonesia.com/pelayanan/training-instansi/">Pelatihan Developer Tingkat Pemula SNPad #04</a></h4>
               <p class="description">Pelatihan khusus tim teknis developer (front &amp; backend) untuk modifikasi dan pengembangan khusus.</p>
             </div>
           </div>
@@ -189,14 +198,14 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-brightness-high" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">Pelatihan Developer Tingkat Mahir SNPad #05 </a></h4>
+              <h4 class="title"><a href="https://fgroupindonesia.com/pelayanan/training-instansi/">Pelatihan Developer Tingkat Mahir SNPad #05 </a></h4>
               <p class="description">Pelatihan lanjutan tim teknis khusus.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon"><i class="bi bi-calendar4-week" style="color: #4680ff;"></i></div>
-               <h4 class="title"><a href="">Pelatihan Materi Custom</a></h4>
+               <h4 class="title"><a href="https://fgroupindonesia.com/pelayanan/training-instansi/">Pelatihan Materi Custom</a></h4>
               <p class="description">Pelatihan khusus materi lainnya dengan customisasi multiplatform yang dibutuhkan enterprise.</p>
             </div>
           </div>
@@ -220,20 +229,20 @@
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
               <i class="bi bi-calendar4-week"></i>
               <div class="card-body">
-                <h5 class="card-title">Dokumentasi Yang Komplit</h5>
-                <p class="card-text">Mulailah explorasi dengan menerapkan konfigurasi yang dibutuhkan saat kapanpun.</p>
-                <a href="#" class="readmore">Baca Selengkapnya</a>
+                <h5 class="card-title">To The Point</h5>
+                <p class="card-text">Mulailah menggunakan SNPad dalam keseharianmu kapanpun juga. Explore sekarang dari Tutorial yang disediakan.</p>
+                <a href="/tutorial/instalasi" class="readmore">Akses Segera</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 mb-4">
             <div class="card" data-aos="zoom-in" data-aos-delay="200">
-              <i class="bi bi-camera-reels"></i>
+              <i class="bi bi-download"></i>
               <div class="card-body">
-                <h5 class="card-title">Video Tutorial</h5>
-                <p class="card-text">Beberapa langkah yang disediakan secara publik dapat diakses dari sini.</p>
-                <a href="#" class="readmore">Baca Selengkapnya</a>
+                <h5 class="card-title">Download Langsung</h5>
+                <p class="card-text">Baik Source Code maupun Installer sudah dapat diakses oleh seluruh publik.</p>
+                <a href="https://github.com/fgroupindonesia/SNotepad" class="readmore">Akses Segera</a>
               </div>
             </div>
           </div>
@@ -244,7 +253,7 @@
               <div class="card-body">
                 <h5 class="card-title">Diskusi (Github)</h5>
                 <p class="card-text">Open Ticketing kasus dengan penyelesaiannya terbuka untuk para developers di github.</p>
-                <a href="#" class="readmore">Baca Selengkapnya</a>
+                <a href="https://github.com/fgroupindonesia/SNotepad/issues" class="readmore">Diskusikan Sekarang</a>
               </div>
             </div>
           </div>
@@ -448,11 +457,11 @@
                 <i class="bi bi-geo-alt"></i>
                 <p><a href="https://goo.gl/maps/dPn6h3GgNQBSJg497">Buka di gmaps</a></p>
               </div>
-              <div class="col-md-5 info">
-                <i class="bi bi-envelope"></i>
-                <p>training@fgroupindonesia.com</p>
-              </div>
               <div class="col-md-4 info">
+                <i class="bi bi-envelope"></i>
+                <p><a href="mailto:training@fgroupindonesia.com">Klik Email</a></p>
+              </div>
+              <div class="col-md-5 info">
                 <i class="bi bi-phone"></i>
                 <p>+62857-9556-9337</p>
               </div>
@@ -472,14 +481,10 @@
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Judul" required>
                 </div>
                 <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Pesan" required></textarea>
+                  <textarea id="message" class="form-control" name="message" rows="5" placeholder="Pesan" required></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit" title="Send Message">Kirim</button></div>
+               
+                <div class="text-center"><button type="submit" id="btn-kirim-pertanyaan" title="Send Message">Kirim</button></div>
               </form>
             </div>
           </div>
@@ -498,16 +503,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <?php include('js_call.php'); ?>
 
 </body>
 

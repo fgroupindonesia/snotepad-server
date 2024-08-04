@@ -42,9 +42,9 @@
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Langganan Informasi</h4>
             <p>Untuk mendapatkan promo dan informasi terkait potongan harga dan juga tawaran menarik lainnya, segeralah tuliskan nomor whatsapp anda disini...</p>
-            <form action="" method="post">
-              <input type="text" name="whatsapp"><input type="submit" value="Langganan">
-            </form>
+            
+              <input id="whatsappna" type="text" name="whatsapp"><input type="submit" id="btn-langganan" value="Langganan">
+           
           </div>
 
         </div>

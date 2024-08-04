@@ -131,6 +131,59 @@
     }
   }, true)
 
+ /** click custom call
+  *  for #about, and also #services
+  */
+   on('click', '#about-link', function(e) {
+      e.preventDefault()
+      window.location = "http://snpad.fgroupindonesia.com/#about"; 
+  }, true)
+
+    on('click', '#services-link', function(e) {
+      e.preventDefault()
+      window.location = "http://snpad.fgroupindonesia.com/#services"; 
+  }, true)
+
+ on('click', '#contact-link', function(e) {
+      e.preventDefault()
+      window.location = "http://snpad.fgroupindonesia.com/#contact"; 
+  }, true)
+
+
+  on('click', '#download-hero', function(e) {
+      e.preventDefault()
+      var dlinkmin = document.getElementById('download-mini');
+      var stat = dlinkmin.style.display;
+
+      if(stat == 'none'){
+        dlinkmin.style.display = 'block';        
+      }else{
+        dlinkmin.style.display = 'none';
+      }
+
+  }, true)  
+
+on('click', '#btn-langganan', function() {
+  
+      var nowa = document.getElementById('whatsappna');
+      //alert('didapat ' + nowa.value);
+        kirimWALangganan(nowa.value);
+
+  }, true)  
+
+on('click', '#btn-kirim-pertanyaan', function(e) {
+      e.preventDefault();
+
+      var name = document.getElementById('name');
+      var email = document.getElementById('email');
+      var subject = document.getElementById('subject');
+      var message = document.getElementById('message');
+
+        kirimWAPertanyaan(name.value, email.value, subject.value, message.value);
+
+  }, true)  
+
+
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
@@ -250,3 +303,26 @@
   new PureCounter();
 
 })()
+
+ let number = "6285795569337";
+ let url = "https://wa.me/";
+
+function  kirimWALangganan (nohp) {
+  
+   
+    let message = 'Hello *Admin* saya ingin berlangganan '+
+    ' informasi terkait promo di *FGroupIndonesia*. \n'+
+    ' Daftarkan nomor saya ' + nohp;
+   
+    let end_url = `${url}${number}?text=${message}`;
+
+     window.location   = end_url; 
+}
+
+function  kirimWAPertanyaan(nama, email, judul, pesan){
+    let message = "Saya " + nama + " ingin bertanya terkait *"+ 
+    judul +"* yaitu : " + pesan + "\n apakah bisa ditangani?";
+
+    let end_url = `${url}${number}?text=${message}`;
+        window.location   = end_url; 
+}
