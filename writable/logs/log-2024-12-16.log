@@ -1,0 +1,102 @@
+CRITICAL - 2024-12-16 10:12:05 --> ErrorException: Undefined variable $hide_btn
+[Method: GET, Route: view]
+in APPPATH\Views\viewer_page.php on line 29.
+ 1 APPPATH\Views\viewer_page.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hide_btn', 'C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewer_page', [], true)
+ 5 APPPATH\Controllers\Works.php(81): view('viewer_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 10:12:26 --> ErrorException: Undefined variable $hide_btn
+[Method: GET, Route: view]
+in APPPATH\Views\viewer_page.php on line 29.
+ 1 APPPATH\Views\viewer_page.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hide_btn', 'C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewer_page', [], true)
+ 5 APPPATH\Controllers\Works.php(81): view('viewer_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 10:12:40 --> ErrorException: Undefined variable $hide_btn
+[Method: GET, Route: view]
+in APPPATH\Views\viewer_page.php on line 29.
+ 1 APPPATH\Views\viewer_page.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hide_btn', 'C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewer_page', [], true)
+ 5 APPPATH\Controllers\Works.php(81): view('viewer_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 13:31:16 --> ErrorException: Undefined variable $lan
+[Method: GET, Route: view]
+in APPPATH\Views\viewer_page.php on line 33.
+ 1 APPPATH\Views\viewer_page.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lan', 'C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewer_page', [], true)
+ 5 APPPATH\Controllers\Works.php(82): view('viewer_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 13:35:08 --> ErrorException: Undefined variable $language
+[Method: GET, Route: view]
+in APPPATH\Views\viewer_page.php on line 33.
+ 1 APPPATH\Views\viewer_page.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $language', 'C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewer_page', [], true)
+ 5 APPPATH\Controllers\Works.php(82): view('viewer_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 15:18:32 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: view]
+in APPPATH\Controllers\Works.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 15:19:22 --> Error: Call to a member function format() on int
+[Method: GET, Route: view]
+in APPPATH\Controllers\Works.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 15:34:20 --> ErrorException: Undefined variable $hide_btn
+[Method: GET, Route: view]
+in APPPATH\Views\viewer_page.php on line 40.
+ 1 APPPATH\Views\viewer_page.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hide_btn', 'C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\snpad-fgroup\\app\\Views\\viewer_page.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viewer_page', [], true)
+ 5 APPPATH\Controllers\Works.php(92): view('viewer_page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Works->displayFile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Works))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -47,3 +47,4 @@ Options -Indexes
 # Disable server signature start
 ServerSignature Off
 # Disable server signature end
+AddHandler application/x-httpd-php81 .php

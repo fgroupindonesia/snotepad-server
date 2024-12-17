@@ -1,0 +1,1 @@
+<p>class Main {</p><p>  public static void main(String[] args) {</p><p>    </p><p>    int num = 1234567, reversed = 0;</p><p><br></p><p>    for(;num != 0; num /= 10) {</p><p>      int digit = num % 10;</p><p>      reversed = reversed * 10 + digit;</p><p>    }</p><p><br></p><p>    System.out.println("Reversed Number: " + reversed);</p><p>  }</p><p>}</p><p><br></p><p><br></p>

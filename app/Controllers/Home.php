@@ -43,7 +43,13 @@ class Home extends BaseController
         return view('upload');
     }
 	
-	
+	public function writeNote(){
+
+		 return view('write_note');
+
+	}
+
+
 	public function sendData(){
 		$fd = "A";
 		$fn = "B";

@@ -13,6 +13,40 @@
 	text-align: center;	
 }
 
+#limit-size {
+  display: none;
+  margin: 20px;
+  background-color: yellow;
+  padding: 10px;
+}
+
+#writepad {
+  margin-bottom: 25px;
+}
+
+#click-copy{
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.another-message{
+  display:none;
+}
+
+.title-language{
+  margin: 0px !important;
+}
+
+#text-content{
+text-align: left !important;
+}
+
+.medium-note {
+  height: 45% !important;
+  width: 80% !important;
+}
+
 #container-logo a:hover {
 	background-color: yellow;
 }
@@ -23,8 +57,24 @@
 
 .btn-translate{
 	margin-bottom: 30px;
-	margin-left: 20px;
+	
 	margin-top: 30px;
+  margin-right: 20px;
+
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color:#ededed;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#777777;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
 }
 
 #container-logo {
@@ -1550,4 +1600,66 @@ section {
 
 #download-mini a:hover {
   background-color: yellow;
+}
+
+.error-message img {
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+
+#secure-note, #direct-share-note {
+  background-image: url('../img/wa.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  width: 220px;
+  display: inline-block;
+  text-align: right;
+}
+
+
+#direct-share-note {
+  width : 300px; 
+   background-image: url('../img/sharex.png') !important;
+   background-size: 24px 24px !important;  
+    background-repeat: no-repeat;
+  background-position: 10px 50%;
+}
+
+#btn-clear{
+  
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color:#ededed;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#777777;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+
+#direct-sharing-link{
+  cursor: pointer;
+  width: 300px;
+}
+
+.success-copied{
+  background-color: yellow;
+  color: red;
+  display: none;
+}
+
+.btn_hide {
+  display : none;
 }

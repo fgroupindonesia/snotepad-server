@@ -1,0 +1,21 @@
+Update Revision #240808
+New Features:
+
+Adding new system flow (public access)
+
+URL : snpad.fgroupindonesia.com/write
+a. write a pad
+b. put the number destination (used as pass key)
+c. generating qrcode (containing URL View)
+d. share this to whatapp 
+
+URL : snpad.fgroupindonesia.com/view?id=kodestring
+a. link to open 
+b. refresh time if valid then display decrypted
+c. link to lock back (write a pass key)
+
+URL : snpad.fgroupindonesia.com/open 
+a. use camera to scan barcode
+b. request write the number receiver (as pass key)
+b. send to DB
+
